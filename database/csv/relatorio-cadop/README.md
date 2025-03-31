@@ -1,0 +1,1 @@
+Pasta para armazenar o arquivo csv para a tabela Relatório Cadop.

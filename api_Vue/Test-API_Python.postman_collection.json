@@ -1,0 +1,95 @@
+{
+	"info": {
+		"_postman_id": "7aafbf30-347c-4543-8e41-861ff21f1f82",
+		"name": "Test-API_Python",
+		"description": "Coleção criada para fazer teste junto à API Python em Flask.",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "38544192"
+	},
+	"item": [
+		{
+			"name": "term=empty",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5000/search?term=",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"search"
+					],
+					"query": [
+						{
+							"key": "term",
+							"value": ""
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "locate",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5000/search?term=18 de julho",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"search"
+					],
+					"query": [
+						{
+							"key": "term",
+							"value": "18 de julho"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "no locate",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5000/search?term=testador",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"search"
+					],
+					"query": [
+						{
+							"key": "term",
+							"value": "testador"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
