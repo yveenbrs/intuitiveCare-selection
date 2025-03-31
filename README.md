@@ -1,10 +1,10 @@
 # intuitiveCare_selection
-Este repositório contém as respostas para o teste de nivelamento realizado pela Intuitve Care.
+Este repositório contém as respostas para o teste de nivelamento realizado pela Intuitive Care.  
 Ele está organizado com pastas específicas para cada parte do teste.
 
-# Estrutura
+## Estrutura
 /data_pipelane: Contém os arquivos necessários para Web Scraping e a Transformação de dados (questões 1 e 2).
-  /output: Armazena os arquivos salvos pelo Web Scraping.
+/output: Armazena os arquivos salvos pelo Web Scraping.
   /webscraping: Executando o arquivos web_scraping.py, realiza a leitura html, salvando todos os arquivos na pasta output.
     required: import requests, BeautifulSoup
   /transformacao_de_dados: Executando o arquivos transformacao_de_dados.py, realiza a transformação dos dados do PDF Anexo 1.
