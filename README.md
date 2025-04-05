@@ -1,6 +1,6 @@
 # Intuitive Care - Nivelamento
 
-Este repositório contém as respostas para o teste de nivelamento realizado pela Intuitive Care, organizado em pastas específicas para cada parte do teste.
+Soluções para o teste de nivelamento aplicado pela **Intuitive Care**, estruturadas em diretórios correspondentes a cada seção do desafio. A organização visa garantir clareza na separação de etapas e facilitar a revisão do código-fonte e da lógica aplicada em cada parte.
 
 ---
 
