@@ -32,10 +32,13 @@ Soluções para o teste de nivelamento aplicado pela **Intuitive Care**, estrutu
 
 
 ### API Vue.js:
-- **app.py:** Arquivo que possui a API em Flask responsável por leitura do arquivo CSV e retorno em json.
-`"execução: Executar: "python app.py" no terminal"`
-- **utils.py:** Amazena os métodos usados como a leitura de CSV.
+- **app.py:** Arquivo que possui a API em Flask responsável por leitura do arquivo CSV e retorno em json. Execute-o:
+  ```bash
+   python app.py
+- **utils.py:** Amazena os métodos usados como a leitura de CSV.    
 `"requer: import csv"`
-- **/cadop-app:** Armazena todos os arquivos/componentes do Vue.js.
-`"requer: Vue.js installed / Executar: "npm run serve" no terminal da pasta"`
+- **/cadop-app:** Armazena todos os arquivos/componentes do Vue.js. Execute-o:   
+  `"requer: Vue.js installed"`
+    ```bash
+  npm run serve
 - **/csv:** Armazena o arquivo solicitado para uso.  
